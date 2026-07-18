@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bollr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\bollr\WinBuilds\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\bollr\AppData\Roaming\Python\Python312\Scripts;c:\Users\bollr\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\bollr\.local\bin;C:\Users\bollr\anaconda3\condabin;c:\Users\bollr\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bollr\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\bollr\WinBuilds\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\bollr\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\nodejs\;c:\Users\bollr\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;;C:\Users\bollr\AppData\Local\Programs\Ollama;C:\Users\bollr\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\bollr\AppData\Local\Programs\Antigravity IDE\bin;c:\Users\bollr\.vscode\extensions\ms-python.debugpy-2026.6.;C:\Users\bollr\Microsoft VS Code\bin;C:\Users\bollr\.lmstudio\bin;C:\Users\bollr\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  22.23.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\bollr\qwen-projects\qwen-first-test\frontend\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "crypto-backtester-frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.2.1",
+      "vite": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
