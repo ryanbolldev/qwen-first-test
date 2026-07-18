@@ -1,0 +1,8 @@
+data_path: data/btc_1h.csv
+gaussian_period: 20
+gaussian_multiplier: 2.0
+slope_lookback: 4
+donchian_period: 20
+position_size_percent: 1.0
+initial_capital: 10000.0
+direction: both
